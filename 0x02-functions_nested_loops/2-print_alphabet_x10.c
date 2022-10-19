@@ -3,9 +3,9 @@
 /**
  * print_alphabet_x10.c - prints alpha 10 times
  */
-
-void print_alphabet_x10(void)
+void print_alphabet(void)
 {
+
 	int ten;
 	char la;
 
