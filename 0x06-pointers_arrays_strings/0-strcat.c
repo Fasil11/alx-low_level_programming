@@ -6,7 +6,7 @@
  * @src: copy from
  * Return: pointerr to dest
  */
-char char *_strcat(char *dest, char *src)
+char *_strcat(char *dest, char *src)
 {
 	int i;
 	int j;
@@ -17,9 +17,12 @@ char char *_strcat(char *dest, char *src)
 		i++;
 	}
 	j = 0;
-	while (dest[j] != '\0')
+	while (src[j] != '\0')
 	{
+		dest[i] = src[j]
 		j++;
+		i++;
+
 	}
 	dest[i] = '\0';
 	return (dest);
