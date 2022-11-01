@@ -9,7 +9,9 @@
  *  description _memset: over there
  *
  *  Return: A pointer to the filled memory area @s.
+ *
  */
+
 void *_memset(void *s, int c, size_t n)
 {
 	unsigned int index;
@@ -17,6 +19,5 @@ void *_memset(void *s, int c, size_t n)
 
 	for (index = 0; index < n; index++)
 		memory[index] = value;
-
 	return (memory);
 }
