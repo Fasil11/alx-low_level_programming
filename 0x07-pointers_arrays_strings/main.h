@@ -1,6 +1,14 @@
 #ifndef MAIN_H
 #define MAIN_H
 
+
+/**
+ * File: main.h
+ * Auth:Fas
+ * description: Header file containig prototypes for all functions
+ * 	used in the 0x06. c - more pointers, arrays and strings directory.
+ */
+
 void *_memset(void *s, char b, unsigned int n);
 char *_memcpy(char *dest, char *src, unsigned it n);
 char *_strchr(char *s, char c);
