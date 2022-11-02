@@ -2,7 +2,7 @@
 
 /**
  * sqrt2 - makes possible to evaluate from 1 to n
- * @a: smae number as n
+ * @a: same number as n
  * @b: number that itrates from 1 to n
  *
  * Return: On success 1.
@@ -18,7 +18,7 @@ int sqrt2(int a, int b)
 }
 
 /**
- * sqrt_recursion - returns the natural square root of n
+ * _sqrt_recursion - returns the natural square root of n
  * @n: Number Integer
  *
  * Return: On success 1.
