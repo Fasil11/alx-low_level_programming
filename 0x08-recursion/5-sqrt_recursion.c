@@ -25,7 +25,7 @@ int sqrt2(int a, int b)
  * On error, -1 is returned, and errno is set appropriately
  */
 
-int _sqrt_recursion(int n);
+int _sqrt_recursion(int n)
 {
 	return (sqrt2(n, 1));
 }
