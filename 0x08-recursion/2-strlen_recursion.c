@@ -3,11 +3,11 @@
 
 /**
  * _strlen_recursion - Returns the length of a string.
- * @s: Teh string to  be measured.
+ * @s: The string to  be measured.
  *
  * Return: The length of the string.
  */
-void _strlen_recursion(char *s)
+int _strlen_recursion(char *s)
 {
 	int len = 0;
 
