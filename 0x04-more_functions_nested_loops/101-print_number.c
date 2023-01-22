@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 
 
 
@@ -66,7 +66,6 @@ void print_number(int n)
 		while (b > 0)
 
 		{
-
 			m = z / b;
 
 			z = z % b;
@@ -74,9 +73,7 @@ void print_number(int n)
 			_putchar (m + '0');
 
 			b = b / 10;
-
 		}
-
 	}
 
 }
