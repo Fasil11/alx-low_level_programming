@@ -1,22 +1,49 @@
 #include "main.h"
 
 /**
- * print_diagonal - draws a diagonal line
- * @n: numbers of '\' to be printed
+ * print_diagonal -  checks for checks for a digit (0 through 9).
+ * @n: n -  Variable
+ *
+ * Return: Always 0.
  */
+
 void print_diagonal(int n)
+
 {
 	int x, y;
 
-	if (n <= 0)
-		-putchar('\n');
 
-	for (x = 0; x < n; x++)
+	if (n > 0)
+
 	{
-		for (y = 0; y < x; y++)
-			_putchar(' ');
+		for (x = 1; x <= n; x++)
 
-		_putchar('\\');
+		{
+
+			for (y = 1; y <= n; y++)
+
+			{
+				if (x == y)
+
+				{
+					_putchar(92);
+
+					break;
+				}
+
+				_putchar(' ');
+
+			}
+
+			_putchar('\n');
+		}
+	}
+
+	else
+
+	{
+
 		_putchar('\n');
+
 	}
 }
