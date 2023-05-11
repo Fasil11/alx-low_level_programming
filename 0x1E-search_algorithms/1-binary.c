@@ -8,6 +8,7 @@
  *
  * Return: the index found or -1
  */
+
 int binary_search(int *array, size_t size, int value)
 {
     size_t i = 0;
@@ -28,7 +29,6 @@ int binary_search(int *array, size_t size, int value)
 
  	else if (a[i] > value)
             size = i;
-
      	else
         {
             a += (i + 1);
